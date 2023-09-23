@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>haii cewe</title>
+  </head>
+  <body>
+    <center>
+    <h1>hai tante <3</h1>
+    <img src="https://media.tenor.com/kaRCm9ELxKgAAAAC/menhera-chan-chibi.gif"/>
+    <h3 id="maucuy">
+      aku sebenarnya sudah lama memendam rasa ini<br />jadi ngene singkat
+      cerita raimu mau ga jadi babu ku?
+    </h3>
+    <button class="btn_mau" onclick="mau(this)">mau</button>&nbsp;
+    <button class="btn" onclick="pindah(this)" style="position: absolute">
+      gamau, raimu koyok asu
+    </button>
+    </center>
+  </body>
+  <script>
+    const button = document.querySelector(".btn_mau");
+    const maucuy = document.getElementById("maucuy")
+
+    function mau(id) {
+      alert("makasih udah terima jadi babu ku <3");
+      alert("ikhlas ga nih?");
+      alert("lanjut wa yuu <3")
+      window.location = "https://wa.me/6285852129763";
+    }
+    function pindah(id) {
+      id.style.right = Math.floor(Math.random() * 200) + "px";
+      id.style.bottom = Math.floor(Math.random() * 200) + "px";
+maucuy.innerHTML = "<b>HARUS GELEM ANJ</b>";
+    }
+  </script>
+</html>
